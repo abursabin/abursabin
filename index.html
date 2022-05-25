@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="css/estil.css">
+</head>
+
+<body>
+    
+    <div id="botons">
+        <img id="pause" onclick="parar()"  src="media/Group%201.png">
+        <img id="play" onclick="seguir()" src="media/Group%202.png">
+    </div>
+    
+    <div id="general">
+        <div id="arriba"> 
+            <div id="azulmarino">
+                <img id="u" onclick="activarMusicau()" src="media/Rectangle%203.png">
+                <img id="loopu" onclcick="loopU()" src="media/Group%205.png">
+                <audio id="musicau">
+                    <source src="media/633901__aesterial-arts__knock-2.wav" type="audio/wav">
+                </audio>
+            </div> 
+            <div id="azul">
+                <img id="dos" onclick="activarMusicados()" src="media/Rectangle%204.png">
+                <img id="loopdos" onclcick="loopDos()"src="media/Group%205.png">
+                <audio id="musicados">
+                    <source src="media/633912__aesterial-arts__mouse-click-3.wav" type="audio/wav">
+                </audio>
+            </div>
+            <div id="turquesa">
+                <img id="tres" onclick="activarMusicatres()" src="media/Rectangle%205.png">
+                <img id="looptres" onclcick="loopTres()"src="media/Group%205.png">
+                <audio id="musicatres">
+                    <source src="media/633926__aesterial-arts__pencil-on-paper.wav" type="audio/wav">
+                </audio>
+            </div>
+            <div id="verde">
+                <img id="quatre" onclick="activarMusicaquatre()" src="media/Rectangle%206.png">
+                <img id="loopquatre" onclcick="loopQuatre()"src="media/Group%205.png">
+                <audio id="musicaquatre">
+                    <source src="media/633933__sieuamthanh__so-gi-ay.m4a" type="audio/m4a">
+                </audio>
+            </div>
+            <div id="lima">
+                <img id="cinc" onclick="activarMusicacinc()" src="media/Rectangle%207.png">
+                <img id="loopcinc" onclcick="loopCinc()"src="media/Group%205.png">
+                <audio id="musicacinc">
+                    <source src="media/633946__prime45__simple-beat.mp3" type="audio/mp3">
+                </audio>
+            </div>
+        </div>
+        <div id="abajo"> 
+            <div id="lila">
+                <img id="sis" onclick="activarMusicasis()"src="media/Rectangle%208.png">
+                <img id="loopsis" onclcick="loopSis()"src="media/Group%205.png">
+                <audio id="musicasis">
+                    <source src="media/633955__timbre__stretched-pringles-tube-of-doom-remix-of-strangehorizon-s-freesound-633858.flac" type="audio/flac">
+                </audio>
+            </div> 
+            <div id="rosa">
+                <img id="set" onclick="activarMusicaset()"src="media/Rectangle%209.png">
+                <img id="loopset" onclcick="loopSet()"src="media/Group%205.png">
+                <audio id="musicaset">
+                    <source src="media/633961__fejluh__final-boss-horau-1.wav" type="audio/wav">
+                </audio>
+            </div>
+            <div id="rojo">
+                <img id="vuit" onclick="activarMusicavuit()" src="media/Rectangle%2010.png">
+                <img id="loopvuit" onclcick="loopVuit()" src="media/Group%205.png">
+                <audio id="musicavuit">
+                    <source src="media/634186__davejf__melody-loop-115-bpm.mp3" type="audio/mp3">
+                </audio>
+            </div>
+            <div id="naranja">
+                <img id="nou" onclick="activarMusicanou()" src="media/Rectangle%2011.png">
+                <img id="loopnou" onclcick="loopNou()"src="media/Group%205.png">
+                <audio id="musicanou">
+                    <source src="media/634364__josefpres__bass-loops-089-with-drums-short-loop-120-bpm.wav" type="audio/wav">
+                </audio>
+            </div>
+            <div id="amarillo">
+                <img id="deu" onclick="activarMusicadeu()"src="media/Rectangle%2013.png">
+                <img id="loopdeu" onclcick="loopDeu()"src="media/Group%205.png">
+                <audio id="musicadeu">
+                    <source src="media/633989__gis-sweden__voice-saying-techno.wav" type="audio/wav">
+                </audio>
+            </div>
+        </div>
+    </div>
+    
+    <div id="controls">
+        <div id="durada">
+            <h1>Timeline</h1>
+            <input type="range" min="0" value="0" step="0.1" id="sliderDur">
+        </div>
+        <div id="volum">
+            <h1>Volume</h1>
+            <input type="range" min="0" max="1" step="0.001" id="sliderVol">
+        </div>
+    </div>
+    
+   
+
+    <video id="minions" autoplay loop>
+        <source src="media/Minion%C3%97The%20Black%20Eyed%20Peas%20-%20I%20Gotta%20Feeling.mp4" type="video/mp4">
+    </video>
+    
+      
+
+    
+    <script src="js/codi.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
